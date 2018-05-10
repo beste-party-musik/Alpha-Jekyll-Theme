@@ -505,6 +505,16 @@
 			}
 		}
 	}
+
+	.music_box {
+		padding: 10px;
+		background: #ffffaa;
+		color: #7f1d31;
+		border: 2px solid #7f1d31;
+		border-radius: 5px;
+		font-size: 16px;
+		font-family: Georgia, 'Times New Roman', serif;
+	 }
 	
 /* Icon */
 
@@ -1155,7 +1165,7 @@
 	#banner {
 		background-attachment:	scroll,							fixed;
 		background-color:		#666;
-		background-image:		url('images/overlay.png'),		url('../images/banner.jpg');
+		background-image:		url('images/overlay.png'),		url('../images/header.jpg');
 		background-position:	top left,						center center;
 		background-repeat:		repeat,							no-repeat;
 		background-size:		auto,							cover;

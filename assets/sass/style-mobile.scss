@@ -13,10 +13,6 @@
 		font-size: 11pt;
 	}
 
-	body #main {
-		margin-top: -9em !important;
-	}
-
 	h2 {
 		font-size: 1.75em;
 		line-height: 1.35em;
@@ -46,7 +42,7 @@
 	
 /* Box */
 
-	$box-padding-vertical: 2em;
+	$box-padding-vertical: 3em;
 	$box-padding-horizontal: 2em;
 
 	.box {
@@ -129,6 +125,10 @@
 				padding-bottom: 1em;
 			}
 		}
+	}
+
+	body #main {
+		margin-top: -9em !important;
 	}
 	
 	body.landing {

@@ -13,10 +13,6 @@
 		min-width: 320px;
 	}
 
-	body #main {
-		margin-top: -9em !important;
-	}
-
 	body, input, select, textarea {
 		font-size: 11pt;
 	}
@@ -121,11 +117,16 @@
 /* Main */
 
 	#main {
+		margin-top: -9em !important;
 		> .box {
 			&:first-child {
 				margin-top: 0;
 			}
 		}
+	}
+
+	body #main {
+		margin-top: -9em !important;
 	}
 	
 /* CTA */

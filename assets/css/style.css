@@ -1229,7 +1229,7 @@
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 19em 0 20em 0;
 		text-align: center;
 	}
 
@@ -1310,7 +1310,7 @@
 				padding: 1em 0 1.25em 0;
 			}
 	body #main {
-		margin-top: -26em;
+		margin-top: -32.5em;
 	}
 
 	body.landing #main {

@@ -6,6 +6,10 @@
 
 /* Basic */
 
+	body {
+		background: rgba(144,150,206,0.3);
+	}
+
 	body, input, select, textarea {
 		font-size: 9pt;
 	}

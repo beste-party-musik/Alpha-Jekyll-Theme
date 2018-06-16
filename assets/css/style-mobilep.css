@@ -6,6 +6,10 @@
 
 /* Basic */
 
+	body {
+		background: rgba(144,150,206,0.3);
+	}
+
 	html, body {
 		min-width: 320px;
 	}

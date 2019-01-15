@@ -324,13 +324,14 @@ layout: default
 	<br/>
 	<h2>Anfrage zu einem unverbindlichen Vorgespräch.</h2>
 	<p>Bitte geben Sie bei Ihrer Anfrage eine aktuelle Telefonnummer, die Gästeanzahl &amp; Hochzeit, Party oder Firmenevent an.</p>
+	* = Pflichtfeld
 	<form method="POST" action="https://formspree.io/kontakt@beste-party-musik.de">
 
-		<input type="text" name="Name" placeholder="Name">
-		<input type="text" name="Telefonnummer" placeholder="Telefonnummer">
+		<input type="text" name="Name" placeholder="*Name">
+		<input type="text" name="Telefonnummer" placeholder="*Telefonnummer">
 		<input type="email" name="Email" placeholder="Deine E-Mail-Addresse">
-		<input type="text" name="Termin" placeholder="[Optional] Termin (Datum)">
-		<input type="text" name="Location" placeholder="[Optional] Deine Location">
+		<input type="text" name="Termin" placeholder="Termin (Datum)">
+		<input type="text" name="Location" placeholder="Deine Location">
 		<textarea name="Nachricht" placeholder="Weitere Infos und Wünsche"></textarea>
 		<input type="hidden" name="_language" value="de" />
 		<button type="submit">Abschicken</button>

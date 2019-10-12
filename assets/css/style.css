@@ -912,7 +912,8 @@
 		.button.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #e5e5e5;
-			color: #777;
+			font-size: xx-large;
+			color: black;
 		}
 
 			input[type="submit"].alt:hover,

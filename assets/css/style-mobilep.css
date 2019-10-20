@@ -10,6 +10,10 @@
 		background: rgba(144,150,206,0.3);
 	}
 
+	p {
+		font-weight: bold;
+	}
+
 	html, body {
 		min-width: 320px;
 	}
